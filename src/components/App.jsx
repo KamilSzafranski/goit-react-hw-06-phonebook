@@ -1,9 +1,8 @@
-import React, { useEffect, useMemo, useState } from "react";
+import React, { useEffect } from "react";
 import { Sheet } from "./Sheet/Sheet";
 import { Contacts } from "./Contacts/Contacts";
 import css from "./App.module.css";
-import { nanoid } from "nanoid";
-import { getStorage, saveStorage } from "../utils/utils.js";
+import { saveStorage } from "../utils/utils.js";
 import { useSelector } from "react-redux";
 
 export const App = () => {

@@ -1,6 +1,5 @@
 import React from "react";
 import css from "./Sheet.module.css";
-import PropTypes from "prop-types";
 import { useDispatch, useSelector } from "react-redux";
 import { addContactAction } from "redux/phoneBook/phoneBook.slice";
 
