@@ -19,7 +19,7 @@ export const Contacts = props => {
 
   return (
     <div className={css.box}>
-      <h2 className={css.title}>Contacts eeee</h2>
+      <h2 className={css.title}>Contacts</h2>
       <p className={css.description}>Find contacts by name</p>
       <input
         type="text"
