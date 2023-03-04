@@ -10,9 +10,8 @@ export const App = () => {
   const contact = useSelector(state => state.phoneBook);
 
   useEffect(() => {
-    if (contact?.length) {
-      saveStorage("contacts", contact);
-    }
+    if (contact?.length) saveStorage("contacts", contact);
+    else saveStorage("contacts", []);
   }, [contact]);
 
   return (
